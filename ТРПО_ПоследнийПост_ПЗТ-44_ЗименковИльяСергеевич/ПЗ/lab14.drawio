@@ -1,0 +1,165 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="wwm2v1i3zIpkYMTmDtlV" name="Страница — 1">
+    <mxGraphModel dx="1928" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor_player" value="Игрок" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="220" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="obj_dialogue" value="Диалог" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="350" y="40" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="obj_location" value="Локация3D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="700" y="160" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="obj_chapter" value="Глава" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="350" y="380" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="obj_quiz" value="ИсторическаяПроверка" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="130" y="540" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="obj_ending" value="Концовка" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="600" y="540" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_admin" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="820" y="600" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="msg1" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(213, 202, 255));&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(213, 202, 255));&quot;&gt;начатьГлаву()&lt;/span&gt;" style="html=1;endArrow=block;startArrow=none;rounded=0;strokeColor=#000000;fontColor=light-dark(#000000, #d5caff);fontSize=12;" parent="1" edge="1">
+          <mxGeometry x="0.1649" y="-28" relative="1" as="geometry">
+            <mxPoint x="210" y="200" as="sourcePoint" />
+            <mxPoint x="270" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg2" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;2.текстРеплики&lt;/span&gt;&lt;/div&gt;" style="html=1;endArrow=block;startArrow=none;rounded=0;strokeColor=#000000;fontColor=light-dark(#000000, #d5caff);fontSize=12;" parent="1" edge="1">
+          <mxGeometry x="-0.1402" y="-25" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="250" y="120" as="sourcePoint" />
+            <mxPoint x="190" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg3" value="3.исследовать&lt;div&gt;Локацию()&lt;/div&gt;" style="html=1;endArrow=block;startArrow=none;rounded=0;strokeColor=#000000;fontColor=light-dark(#000000, #d5caff);fontSize=12;" parent="1" edge="1">
+          <mxGeometry x="-0.1" y="-36" relative="1" as="geometry">
+            <mxPoint x="580" y="140" as="sourcePoint" />
+            <mxPoint x="660" y="190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg4" value="4.найтиАртефакт()" style="html=1;endArrow=block;startArrow=none;rounded=0;strokeColor=#000000;fontColor=light-dark(#000000, #d5caff);fontSize=12;" parent="1" edge="1">
+          <mxGeometry x="-0.7647" y="43" relative="1" as="geometry">
+            <mxPoint x="710" y="310" as="sourcePoint" />
+            <mxPoint x="640" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg5" value="5.завершитьГлаву()" style="html=1;endArrow=block;startArrow=none;rounded=1;exitX=0.3;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=light-dark(#000000, #d5caff);fontSize=12;" parent="1" source="obj_chapter" target="obj_chapter" edge="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="350" />
+              <mxPoint x="490" y="350" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg6" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;6.задатьВопрос()&lt;/span&gt;&lt;/div&gt;" style="html=1;endArrow=block;startArrow=none;rounded=0;strokeColor=#000000;fontColor=light-dark(#000000, #d5caff);fontSize=12;" parent="1" edge="1">
+          <mxGeometry x="-0.7647" y="31" relative="1" as="geometry">
+            <mxPoint x="410" y="490" as="sourcePoint" />
+            <mxPoint x="350" y="530" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg7" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;7.ответ()&lt;/span&gt;&lt;/div&gt;" style="html=1;endArrow=block;startArrow=none;rounded=0;strokeColor=#000000;fontColor=light-dark(#000000, #d5caff);fontSize=12;" parent="1" edge="1">
+          <mxGeometry x="-0.0247" y="29" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="190" y="470" as="sourcePoint" />
+            <mxPoint x="120" y="340" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg8" value="8.вычислить&lt;div&gt;ОчкиЗнания()&lt;/div&gt;" style="html=1;endArrow=block;startArrow=none;rounded=0;strokeColor=#000000;fontColor=light-dark(#000000, #d5caff);fontSize=12;" parent="1" edge="1">
+          <mxGeometry x="-0.04" y="20" relative="1" as="geometry">
+            <mxPoint x="430" y="590" as="sourcePoint" />
+            <mxPoint x="540" y="590" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg9" value="9.отрегулироватьСложность()" style="html=1;endArrow=block;startArrow=none;rounded=0;strokeColor=#000000;fontColor=light-dark(#000000, #d5caff);fontSize=12;" parent="1" edge="1">
+          <mxGeometry x="-0.0588" y="-20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="520" />
+            </Array>
+            <mxPoint x="740" y="520" as="sourcePoint" />
+            <mxPoint x="570" y="520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O7UlwurhEbLCCGUbKOyK-1" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="actor_player" target="obj_dialogue" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="250" as="sourcePoint" />
+            <mxPoint x="480" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O7UlwurhEbLCCGUbKOyK-2" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="obj_location" target="obj_dialogue" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="250" as="sourcePoint" />
+            <mxPoint x="480" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O7UlwurhEbLCCGUbKOyK-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="obj_chapter" target="obj_location" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="450" as="sourcePoint" />
+            <mxPoint x="480" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O7UlwurhEbLCCGUbKOyK-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="obj_quiz" target="obj_chapter" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="450" as="sourcePoint" />
+            <mxPoint x="480" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O7UlwurhEbLCCGUbKOyK-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="obj_quiz" target="actor_player" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="450" as="sourcePoint" />
+            <mxPoint x="480" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O7UlwurhEbLCCGUbKOyK-7" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.2;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="obj_ending" target="actor_player" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="670" as="sourcePoint" />
+            <mxPoint x="480" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="670" />
+              <mxPoint x="90" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O7UlwurhEbLCCGUbKOyK-8" value="10.определить&lt;div&gt;Концовку()&lt;/div&gt;" style="html=1;endArrow=block;startArrow=none;rounded=0;strokeColor=#000000;fontColor=light-dark(#000000, #d5caff);fontSize=12;" parent="1" edge="1">
+          <mxGeometry x="-0.0909" y="50" relative="1" as="geometry">
+            <mxPoint x="80" y="540" as="sourcePoint" />
+            <mxPoint x="80" y="430" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O7UlwurhEbLCCGUbKOyK-9" value="" style="endArrow=none;html=1;rounded=0;entryX=1.002;entryY=0.678;entryDx=0;entryDy=0;exitX=0;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="obj_ending" target="obj_quiz" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="740" as="sourcePoint" />
+            <mxPoint x="480" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O7UlwurhEbLCCGUbKOyK-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="obj_quiz" target="actor_admin" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="540" as="sourcePoint" />
+            <mxPoint x="840" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="565" />
+              <mxPoint x="410" y="530" />
+              <mxPoint x="845" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

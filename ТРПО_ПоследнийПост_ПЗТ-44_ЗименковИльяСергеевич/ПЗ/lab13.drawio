@@ -1,0 +1,268 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram id="Riei1Q33dyS4C_mdlufJ" name="Страница — 1">
+    <mxGraphModel dx="1028" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1250" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cl_save" value="Сохранение" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_save_attrs" value="-idСохранения&#xa;-имяИгрока&#xa;-очкиЗнаний&#xa;-достигнутаяКонцовка&#xa;-путьКЛогу&#xa;-датаСессии" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="560" y="78" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_save_methods" value="-загрузитьСохранение()&#xa;-создатьНовоеСохранение()&#xa;-сохранитьПрогресс()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="560" y="180" width="260" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_player" value="Игрок" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="180" y="280" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_player_attrs" value="-idПрогресса&#xa;-статусПрохождения&#xa;-очкиЗаГлаву" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="180" y="318" width="260" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_player_methods" value="-начатьГлаву()&#xa;-продолжитьИгру()&#xa;-настроитьИгру()&#xa;-просмотретьСправку()&#xa;-просмотретьАрхив()&#xa;-просмотретьДостижения()&#xa;-просмотретьОбАвторах()&#xa;-выйтиИзИгры()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="180" y="380" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_admin" value="Администратор" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="480" y="280" width="260" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_admin_methods" value="-расширитьБиблиотекуФактов()&#xa;-настроитьТриггерыСобытий()&#xa;-отрегулироватьСложность()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="480" y="318" width="260" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_chapter" value="Глава" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="800" y="280" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_chapter_attrs" value="-idГлавы&#xa;-номерГлавы&#xa;-название&#xa;-статус" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="800" y="318" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_chapter_methods" value="-загрузитьГлаву()&#xa;-завершитьГлаву()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="800" y="390" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_dialogue" value="Диалог" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="560" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_dialogue_attrs" value="-idДиалога&#xa;-имяПерсонажа&#xa;-текстРеплики&#xa;-типСпикера" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="598" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_dialogue_methods" value="-отобразитьРеплику()&#xa;-обработатьВыбор()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="670" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_choice" value="Выбор" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="780" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_choice_attrs" value="-idВыбора&#xa;-текстВарианта&#xa;-следующийДиалог&#xa;-дельтаОчков" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="818" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_choice_methods" value="-применитьВыбор()&#xa;-записатьВЛог()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="890" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_loc" value="Локация3D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="300" y="560" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_loc_attrs" value="-idЛокации&#xa;-название&#xa;-типЛокации&#xa;-файлСцены" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="300" y="598" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_loc_methods" value="-исследоватьЛокацию()&#xa;-найтиАртефакт()&#xa;-настроитьТриггер()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="300" y="670" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_artifact" value="Артефакт" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="290" y="800" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_artifact_attrs" value="-idАртефакта&#xa;-название&#xa;-типАртефакта&#xa;-описание&#xa;-медиафайл" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="290" y="838" width="220" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_artifact_methods" value="-открытьАртефакт()&#xa;-добавитьВАрхив()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="290" y="930" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_fact" value="ИсторическаяСправка" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1010" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_fact_attrs" value="-idСправки&#xa;-термин&#xa;-определение&#xa;-категория&#xa;-файлИсточника" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1048" width="220" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_fact_methods" value="-открытьЭнциклопедию()&#xa;-добавитьФакт()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1130" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_quiz" value="ИсторическаяПроверка" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="560" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_quiz_attrs" value="-idПроверки&#xa;-текстВопроса&#xa;-правильныйОтвет&#xa;-сложность&#xa;-источник" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="560" y="600" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_quiz_methods" value="-задатьВопрос()&#xa;-проверитьОтвет()&#xa;-вычислитьОчкиЗнания()&#xa;-отрегулироватьСложность()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="560" y="690" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_option" value="Вариант Ответа" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="800" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_option_attrs" value="-idВарианта&#xa;-текстВарианта&#xa;-являетсяВерным" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="560" y="838" width="240" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_option_methods" value="-выбратьВариант()&#xa;-вводТекстовогоОтвета()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="560" y="896" width="240" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_ending" value="Концовка" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;fontSize=13;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="860" y="560" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_ending_attrs" value="-idКонцовки&#xa;-типКонцовки&#xa;-минимумОчков&#xa;-описание&#xa;-медиафайл" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="860" y="598" width="220" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="cl_ending_methods" value="-определитьКонцовку()" style="text;html=1;align=left;verticalAlign=top;fontColor=#333333;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="860" y="680" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="inh1" style="endArrow=none;endFill=0;endSize=16;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_player" target="cl_save" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="240" />
+              <mxPoint x="310" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inh2" style="endArrow=none;endFill=0;endSize=16;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_admin" target="cl_save" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="260" />
+              <mxPoint x="470" y="260" />
+              <mxPoint x="410" y="260" />
+              <mxPoint x="410" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag1" value="" style="endArrow=diamondThin;endFill=0;endSize=16;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_chapter" target="cl_save_methods" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="300" />
+              <mxPoint x="770" y="270" />
+              <mxPoint x="850" y="270" />
+              <mxPoint x="850" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag1_lbl" value="1..*" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="830" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ag2" value="" style="endArrow=diamondThin;endFill=0;endSize=16;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_dialogue" target="cl_chapter_methods" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="520" />
+              <mxPoint x="380" y="520" />
+              <mxPoint x="600" y="520" />
+              <mxPoint x="855" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag3" value="" style="endArrow=diamondThin;endFill=0;endSize=16;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_choice" target="cl_dialogue" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="800" />
+              <mxPoint x="20" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag3_lbl" value="1..*" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="10" y="750" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ag4" value="" style="endArrow=diamondThin;endFill=0;endSize=16;html=1;rounded=0;exitX=0.7;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_loc" target="cl_chapter_methods" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="454" y="530" />
+              <mxPoint x="910" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag4_lbl" value="1..*" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="455" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ag5" value="" style="endArrow=diamondThin;endFill=0;endSize=16;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_artifact" target="cl_loc" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="820" />
+              <mxPoint x="280" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag5_lbl" value="1..*" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="280" y="760" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ag6" value="" style="endArrow=none;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_fact" target="cl_artifact" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="1030" />
+              <mxPoint x="530" y="812" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag6_lbl" value="1..*" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="270" y="1010" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ag7" value="" style="endArrow=diamondThin;endFill=0;endSize=16;html=1;rounded=0;exitX=0.3;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_quiz" target="cl_chapter_methods" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="632" y="540" />
+              <mxPoint x="965" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag7_lbl" value="1..*" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="790" y="560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ag8" value="" style="endArrow=diamondThin;endFill=0;endSize=16;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_option" target="cl_quiz" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="820" />
+              <mxPoint x="540" y="700" />
+              <mxPoint x="540" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ag8_lbl" value="1..*" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="530" y="770" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ag9" value="" style="endArrow=none;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_quiz" target="cl_ending" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ag10" value="" style="endArrow=none;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#444441;" parent="1" source="cl_save" target="cl_ending" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="68" />
+              <mxPoint x="1140" y="68" />
+              <mxPoint x="1140" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CH7Os3QzdqjSctJ5mBvG-1" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="500" y="790" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CH7Os3QzdqjSctJ5mBvG-2" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="270" y="598" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CH7Os3QzdqjSctJ5mBvG-3" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="10" y="600" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CH7Os3QzdqjSctJ5mBvG-6" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="530" y="590" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CH7Os3QzdqjSctJ5mBvG-7" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="830" y="560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CH7Os3QzdqjSctJ5mBvG-9" value="1..*" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="160" y="520" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CH7Os3QzdqjSctJ5mBvG-10" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="965" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CH7Os3QzdqjSctJ5mBvG-11" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mP69S_yn6hv0aFUYWz7n-1" value="1..*" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="630" y="540" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mP69S_yn6hv0aFUYWz7n-2" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="910" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mP69S_yn6hv0aFUYWz7n-3" value="1&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;fontColor=#444441;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="850" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
